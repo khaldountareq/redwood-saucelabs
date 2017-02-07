@@ -4,3 +4,6 @@ echo  34.193.110.187 rtns.www.baaz.com >> %temp%\temphosts.txt
 echo  52.6.137.211 proxy1.baaz.com >> %temp%\temphosts.txt
 type C:\WINDOWS\system32\drivers\etc\hosts >> %temp%\temphosts.txt
 copy /Y %temp%\temphosts.txt C:\WINDOWS\system32\drivers\etc\hosts
+54.175.55.229 pre-wwwbaaz.com
+54.175.55.229 api.pre-www.baaz.com
+52.45.120.171 proxy1.pre-baaz.com
